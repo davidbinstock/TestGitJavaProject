@@ -1,10 +1,18 @@
+import java.util.*;
 
 public class Hello {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String message = "hello";
-		System.out.println(message);
+		Scanner s = new Scanner(System.in);
+		
+		//ask user for number
+		System.out.println("enter a number: ");
+		int num = s.nextInt();
+		// print message num times
+		for(int i = 0; i < num ; i++) {
+			System.out.println(message);
+		}
 	}
 
 }
