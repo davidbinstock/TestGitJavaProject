@@ -2,8 +2,9 @@
 public class Goodbye {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String name;
+		
+		String message = "goodbye";
+		System.out.println(message);
 	}
 
 }
